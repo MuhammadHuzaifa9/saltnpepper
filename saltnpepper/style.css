@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'futurak';
+    src: url(./assets/fonts/futurak.ttf) format('truetype');
+}
+body{
+    background-color: black;
+    color: white;
+}
+.webheader{
+    background-color: black;
+    color: white;
+}
+a{
+    color:white !important;
+}
+.paddingleft{
+    margin-left: 50px;
+}
+.franchise{
+    padding: 15px;
+    border-radius: 25px !important;
+    border: 1px solid white !important;
+    margin-left: 90px;
+    
+}
+.order{
+    padding: 15px;
+    border-radius: 50px !important;
+    border: 1px solid white !important;
+    
+    background-color: red;
+    
+}
+.headeritems{
+    margin-left: 280px;
+}
+span{
+    font-family:"futurak";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.brandss{
+   height: 600px;
+    
+}
+.brand1{
+    width: 300px;
+    height: 130px;
+    ;
+}
+.brand1 p{
+    text-align: center;
+    width: 180px;
+    border: 1px solid grey;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: small;
+}
+
+.brand1 img{
+    background-color: white;
+    
+}
+.packages{
+    color: red;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 6px;
+    text-align: center;
+    
+
+}
+.cbody{
+    background-color: black;
+    
+    align-items: center;
+}
+.borderr{
+    border: none;
+}
+.directions{
+    
+    text-align: center;
+    width: 180px;
+    border: 1px solid white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: small;
+}
+li{
+    list-style-type: none;
+    color: grey;
+}
+.firstli{
+    font-size: large;
+    font-weight: bold;
+}
+.footer{
+    font-size: small;
+}
+.restli{
+    padding: 20px;
+    padding-left: 0px;
+}
+@media screen and (max-width:996px){
+    .logo{
+        width: 90px;
+        height: 50px;
+    }
+    
+}
+   
+
